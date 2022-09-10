@@ -17,67 +17,96 @@
     <!-- Look at the wireframe to build other pages, should be in discord -->
 
 <body>
-    <div>
+    <h1>Welcome to Astro Digital</h1>
     <header>
+        <h2 class="hidden">Header</h2>
         <nav id="mainNav">
-            <h2 class="hidden">Header Navigation</h2>
+            <h3 class="hidden">Header Navigation</h3>
             <div id="Logo">
-                <img src="images/main_logo">
+                <img src="images/main_logo" alt="Main Astro logo">
             </div>
             <ul class="navList">
                 <li> <a class="navLink selected" href="index.html">Home</a> </li>
                 <li> <a class="navLink" href="about.html">About</a> </li>
-                <li> <a class="navLink" href="main.html">Main</a> </li>
                 <li> <a class="navLink" href="feature.html">Feature</a> </li>
                 <li> <a class="navLink" href="contact.html">Contact</a> </li>
             </ul>
         </nav>
     </header>
-    </div>
 
     <main>
+        <h2 class="hidden">Main Body</h2>
         <div>
-            <h2 class="hidden">Hero Image</h2>
+            <h3 class="hidden">Hero Image</h3>
             <section class="heroImg"> <!-- Hero img here will be like a background for the banner -->
+                <h4 class="hidden">Hero - Cover Image</h4>
+                <img src="images/cover_pic.jpg" alt="Hero_Image">
                 <a href="contact.html" class="contactButton">CONTACT US NOW</a> <!-- centered contact button -->
             </section>
         </div>
 
+<!-- Our Services -->
         <div>
-            <h3 class="hidden">  Services</h3>
-            <h2> Services </h2> <!-- All 3 sections should be centered -->
-            <section> </section>
-            <section> </section>
-            <section> </section>
+            <h3 class="hidden">Our Services</h3>
+            <h4> Services </h4> <!-- All 3 sections should be centered -->
+            <section>
+                <h5 class="hidden">Web Design</h5>
+                <img src="images/web_design.jpg" alt="Web-design photo">
+                <p>Web Design</p>
+                <p>We offer web desinging to help you build your website. By understanding you, your brand and your target audience. </p>
+            </section>
+
+            <section>
+                <h5 class="hidden">Graphic Design</h5>
+                <img src="images/graphic_design.jpg" alt="Graphic-design photo">
+                <p>Graphic Design</p>
+                <p>We offer graphic designing to help you build brand identity. In this category, we offer logo designing, extra artwork that would make your brand look more apealing. </p>
+            </section>
+
+            <section>
+                <h5 class="hidden">Motion Design</h5>
+                <img src="images/motion_design.jpg" alt="Motion-design photo">
+                <p>Graphic Design</p>
+                <p>Motion design is tha best way to make your brand identity look more apeealing and approachable. By also offering this service such as video editing/making, 3d design and animation, we make your brand more apealing and approachable. </p>
+            </section>
         </div>
 
+  <!-- About Astro -->
         <div>
-            <h3 class="hidden"> About Section </h3>
-            <h2> About Astro </h2> <!-- One section on left, and one of right -->
-            <section> </section>
-            <section> </section>
+            <h3 class="hidden">About </h3>
+            <h4>ABOUT ASTRO</h4>
+            <section class="Info">
+                <h5 class="hidden">About Astro</h5>
+                <p>Astro Digital is an marketing agency, estabilished to make your dream come true. By offereing high quality services in web-designing, graphic designing and motion designing, we give your brand its true identity. </p>
+            </section>
         </div>
 
+
+<!-- Our work / portfolio -->
         <div>
             <h3 class="hidden"> Portfolio Section </h3> <!-- All 4 centered -->
-            <h2> Our Portfolio </h2>
+            <h4> Our Portfolio </h4>
             <section>
-                <img src="images/">
+                <h5 class="hidden">Portfolio 1</h5>
+                <img src="images/portfolio_1" alt="Portfolio picture 1">
                 <a href="portfolioButton"></a> 
             </section>
 
             <section>
-                <img src="images/">
+                <h5 class="hidden">Portfolio 2</h5>
+                <img src="images/portfolio_2" alt="Portfolio picture 2">
                 <a href="portfolioButton"></a> 
             </section>
 
             <section>
-                <img src="images/">
+                <h5 class="hidden">Portfolio 3</h5>
+                <img src="images/" alt="Portfolio picture 3">
                 <a href="portfolioButton"></a> 
             </section>
 
             <section>
-                <img src="images/">
+                <h5 class="hidden">Portfolio 4</h5>
+                <img src="images/" alt="Portfolio picture 4">
                 <a href="portfolioButton"></a> 
             </section>
         </div>
@@ -88,24 +117,27 @@
         <h2 class="hidden"> Footer </h2>
 
         <section>
-        <img src="images/main_logo">
+            <h3 class="hidden">Logo</h3>
+            <img src="images/main_logo" alt="Main Astro logo">
         </section>
 
         <section>
+            <h3 class="hidden">CopyRight</h3>
             <p> © 2022. All rights reserved by Astro Digital </p>
             <p> 1156 Bucke St, London, ON N5Y 3S3 </p>
             <p> Email: astrodigital@contact.com </p>
         </section>
 
-        <section> <!-- Social logos aligned on the footer -->
+        <section><!-- Social logos aligned on the footer -->
+            <h3 class="hidden">Social Links And Logos</h3>
                 <a class="social" href="https://twitter.com/">
-                    <img src="./images/twitter.svg" alt="twitter logo">
+                    <img src="assets/twitter.svg" alt="twitter logo">
                 </a>
                 <a class="social" href="https://facebook.com/">
-                    <img src="./images/facebook.svg" alt="facebook logo">
+                    <img src="assets/face.svg" alt="facebook logo">
                 </a>
                 <a class="social" href="https://instagram.com/">
-                    <img src="./images/instagram.svg" alt="instagram logo">
+                    <img src="assets/insta.svg" alt="instagram logo">
                 </a>
         </section>
 
