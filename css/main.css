@@ -1,0 +1,28 @@
+/*
+Style Name: Astro Digital
+Author: 
+Version: 1.1
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+/*------------------
+ 1- Global
+ 2- HOME
+ 3- CONTACT
+ 4- FEATURE
+ 5- INDEX
+ 6- ABOUT
+ -------------------*/
+
+ /*______________________
+----------Global ---------*/
+
+.hidden {
+    display: none;
+}
+
+img {
+    /*can be modified*/
+    widows: 50%;
+}
