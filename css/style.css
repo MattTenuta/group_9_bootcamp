@@ -1,0 +1,596 @@
+@charset "UTF-8";
+
+/* Main */
+
+/* Body + HTML Section */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: ghostwhite;
+}
+
+html body {
+    height: 100%;
+}
+
+/* Navigation + Logo Section */
+
+nav{
+    float: right;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: video,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #F2F2F2;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.nav-logo{
+    background:#006792;
+    overflow: hidden;
+}
+
+/* Home Section */
+
+/* Hero Image */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background: center / cover no-repeat url("/images/cover_pic.jpg");
+    position: relative;
+    z-index: -999;
+}
+
+#hero-text {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#hero-text h1 {
+    text-transform: capitalize;
+    /*    font-size: calc(2rem + 0.9vw);*/
+    color: hsl(216, 33%, 97%);
+    font-family: uniwars, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 22px;
+    font-size: 55px;
+    text-align:center;
+    /*    margin-top: -50px;*/
+}
+
+#overlay {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.button {
+    background-color: #92278F;
+    border: solid #682860 6px;
+    color: #F2F2F2;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*    margin: 4px 2px;*/
+    cursor: pointer;
+    border-radius: 30px;
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    margin-left: -80px;
+    margin-top: -240px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+/* Services Section */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.content {
+    margin: 2em;
+    border: 5px solid #006792;
+    border-radius: 5px;
+    background: #006792;
+    height: 868px;
+    padding: 6px;
+}
+
+.content p {
+    word-break: break-word;
+}
+
+.ser-head {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #1092B4;
+    padding: 30px; 
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.ser-title {
+    font-size: 27px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    padding: 30px; 
+    margin-top: -40px;
+}
+
+.ser-par {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 5px;
+}
+
+.ser-grid {
+    margin-top: -30px;
+}
+
+.web-coding {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    display: block;
+    padding: 30px;
+}
+
+.graphic-des {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    display: block;
+    padding: 30px; 
+}
+
+.motion-des {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    display: block;
+    padding: 30px; 
+}
+
+/* About Astro Digital Section */
+
+.aboutastro-head {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #92278F;
+    padding: 30px; 
+    margin-top: 50px;
+}
+
+.aboutastro-par {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #92278F;
+    padding: 30px; 
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 690px;
+}
+
+/* Our Portfolio Section */
+
+.ourportfolio-head {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #1092B4;
+    padding: 30px; 
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.portf-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.portf-grid-container div {
+    width: 280px;
+    height: 280px;
+    margin: auto;
+}
+
+.button-learn-container {
+    position: relative;
+}
+
+.button-learn {
+    background-color: #1FB5AD;
+    border: solid #1092B4 6px;
+    color: #F2F2F2;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*    margin: 4px 2px;*/
+    cursor: pointer;
+    border-radius: 30px;
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    margin-left: -80px;
+    margin-top: -225px;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.wrapper-learn {
+    text-align: center;
+}
+
+/* About Section */
+
+.astro-title {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #1092B4;
+    padding: 30px; 
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.astro-par {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #1092B4;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: -80px;
+}
+
+.team-container {
+    margin-top: 120px;
+}
+
+.aTeam {
+    border-radius: 50%;
+}
+
+.team-container .team-astro {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-container .team-astro .astro-member {
+    width: 325px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+    padding: 25px;
+}
+
+.team-container .team-astro .astro-member img {
+    width: 100px;
+}
+
+.team-container .team-astro .astro-member h3 {
+    color: #006792;
+}
+
+.team-container .team-astro .astro-member span {
+    color: #92278F;
+}
+
+.team-container .team .member p {
+    margin: 15px 0;
+    font-weight: 400;
+    color: #999999;
+    text-align: justify;
+}
+
+/* Portfolio Section */
+
+.portfolio-head {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #92278F;
+    padding: 30px; 
+    margin-top: 50px;
+}
+
+portfolio-par {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #92278F;
+    padding: 30px; 
+    margin-top: 100px;
+}
+
+.web-services {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #1092B4;
+    padding: 30px; 
+    margin-top: 80px;
+}
+
+.web-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /*    background-color: #2196F3;*/
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.web-grid-container > div {
+    /*    background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.web-item img {
+    border: 1px solid #1092B4;
+
+}
+
+/**/
+
+.graph-services {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #1092B4;
+    padding: 30px; 
+    margin-top: 80px;
+}
+
+.graph-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /*    background-color: #2196F3;*/
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.graph-grid-container > div {
+    /*    background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.graph-item img {
+    border: 1px solid #1092B4;
+
+}
+
+
+
+/**/
+
+.motion-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /*    background-color: #2196F3;*/
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.motion-grid-container > div {
+    /*    background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.motion-item img {
+    border: 1px solid #1092B4;
+
+}
+
+.buttonContainer {
+    position: relative;
+}
+
+.button-port {
+    background-color: #92278F;
+    border: solid #682860 6px;
+    color: #F2F2F2;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*    margin: 4px 2px;*/
+    cursor: pointer;
+    border-radius: 30px;
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    margin-left: -80px;
+    margin-top: -100px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.wrapper-port {
+    text-align: center;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #006792; 
+    margin-top: 190px;
+}
+
+.footer-column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 127px; 
+}
+
+.footer-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-left {
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: video,serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 20px;
+    margin-top: 27px;
+
+}
+
+.footer-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 11px;
+    width: 200px;
+    height: auto;
+    margin-top: 38px;
+    margin-left: 170px;
+}
+.footer-container div {
+    /*    background-color: red;*/
+}
+
+
+
+
+
+
+

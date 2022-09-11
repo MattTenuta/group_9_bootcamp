@@ -1,8 +1,8 @@
-<img align="center" src="images/cover_pic1.jpg">
+<img allign="center" src="images/cover_pic1.jpg">
 
-<h1 align="center"> Astro Digital </h1>
+<h1 allign="center"> Astro Digital </h1>
 
-<h3 align="center"> Shoot for the stars </h3>
+<h3 allign="center"> Shoot for the stars </h3>
 
  Welcome to Astro Digital, where we ensure our clients wishes are met. Our company is a marketing and promotion company where we help build our client's their own company. We strive to deliver our best solutions with coding, graphic and motion design capabilities so that our clients can see their company brought back to life.
  Have a look and enjoy.

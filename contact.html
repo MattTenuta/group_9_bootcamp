@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astro Digital Home</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-
-<!-- this is all just rough html from my memory, 
-    you can change anything in here that you need to get it all working as intended -->
-
-    <!-- as long as it mostly looks like the wireframe (but with colour)
-    we should be ok -->
-
-    <!-- Look at the wireframe to build other pages, should be in discord -->
+    <head>
+        <!-- Meta Tags Section -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title Section  -->
+        <title>Astro Digital</title>
+        <!-- Link Tags Section-->
+        <link rel="icon" type="image/png" href="images/main_logo_2.png">
+        <link rel="stylesheet" href="https://use.typekit.net/scl7hpg.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    </head>
 
 <body>
-    <h1>Welcome to Astro Digital</h1>
     <header>
         <h2 class="hidden">Header</h2>
-        <nav id="mainNav">
-            <h3 class="hidden">Header Navigation</h3>
-            <div id="Logo">
-                <img src="images/main_logo" alt="Main Astro logo">
-            </div>
-            <ul class="navList">
-                <li> <a class="navLink selected" href="index.html">Home</a> </li>
-                <li> <a class="navLink" href="about.html">About</a> </li>
-                <li> <a class="navLink" href="feature.html">Feature</a> </li>
-                <li> <a class="navLink" href="contact.html">Contact</a> </li>
-            </ul>
-        </nav>
+        <div class="nav-logo">
+            <img class="logo-img" src="images/astro_logo_svg.svg" width="130" height="auto" ALT="align box" allign="center">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <h2 class="hidden">Main Body</h2>
         <div>
-            <h3 class="hidden"> Contact </h3>
-            <h4>CONTACT US</h4>
+            <h2 class="hidden"> Contact </h2>
+            <h3>CONTACT US</h3>
             <section class="Info">
                 <h5 class="hidden">Astro About Info</h5>
                 <p>Astro Digital is a people's company that ensure their clients success in their bussiness and help them acheive it by offering it's marketing and advertising services. Contact us if you require such success in your bussiness.</p>
@@ -66,35 +66,42 @@
 
 
     <footer>
-        <h2 class="hidden"> Footer </h2>
-
-        <section>
-            <h3 class="hidden">Logo</h3>
-            <img src="images/main_logo" alt="Main Astro logo">
-        </section>
-
-        <section>
-            <h3 class="hidden">CopyRight</h3>
-            <p> © 2022. All rights reserved by Astro Digital </p>
-            <p> 1156 Bucke St, London, ON N5Y 3S3 </p>
-            <p> Email: astrodigital@contact.com </p>
-        </section>
-
-        <section><!-- Social logos aligned on the footer -->
-            <h3 class="hidden">Social Links And Logos</h3>
-                <a class="social" href="https://twitter.com/">
-                    <img src="assets/twitter.svg" alt="twitter logo">
-                </a>
-                <a class="social" href="https://facebook.com/">
-                    <img src="assets/face.svg" alt="facebook logo">
-                </a>
-                <a class="social" href="https://instagram.com/">
-                    <img src="assets/insta.svg" alt="instagram logo">
-                </a>
-        </section>
-
-        
-
+        <div>
+            <div class="footer-row">
+                <div class="footer-column">
+                    <div class="footer-left">
+                        <h4>
+                            © 2022. All rights reserved by Astro Digital
+                            <br>
+                            1156 Bucke St, London, ON N5Y 3S3
+                            <br>
+                            Email: astrodigital@contact.com
+                        </h4>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="footer-center">
+                        <img src="/images/main_logo_2.png" alt="" width="100" height="auto" align="center">
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="footer-container">
+                        <div>
+                            <img src="/assets/face.svg" alt="" width="40">
+                        </div>
+                        <div>
+                            <img src="/assets/twitter.svg" alt="" width="40">
+                        </div>
+                        <div>
+                            <img src="/assets/insta.svg" alt="" width="40">
+                        </div>
+                        <div>
+                            <img src="/assets/youtube.svg" alt="" width="40">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="js/main.js"></script>
