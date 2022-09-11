@@ -1,158 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astro Digital Home</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-
-<!-- this is all just rough html from my memory, 
-    you can change anything in here that you need to get it all working as intended -->
-
-    <!-- as long as it mostly looks like the wireframe (but with colour)
-    we should be ok -->
-
-    <!-- Look at the wireframe to build other pages, should be in discord -->
-
-<body>
-    <h1>Welcome to Astro Digital</h1>
-    <header>
-        <h2 class="hidden">Header</h2>
-        <nav id="mainNav">
-            <h3 class="hidden">Header Navigation</h3>
-            <div id="Logo">
-                <img src="images/main_logo" alt="Main Astro logo">
-            </div>
-            <ul class="navList">
-                <li> <a class="navLink selected" href="index.html">Home</a> </li>
-                <li> <a class="navLink" href="about.html">About</a> </li>
-                <li> <a class="navLink" href="feature.html">Feature</a> </li>
-                <li> <a class="navLink" href="contact.html">Contact</a> </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <h2 class="hidden">Main Body</h2>
-
-        <div>
-            <section class="Video">
-                <h3 class="hidden">Cover Video</h3>
-                <video src="assets/Ad.mp4"></video>
-            </section>
-        </div>
-
-        <div>
-            <h3 class="hidden">About </h3>
-            <h4>ABOUT ASTRO</h4>
-            <section class="Info">
-                <h5 class="hidden">Astro About Info</h5>
-                <p>Astro Digital is an marketing agency, estabilished to make your dream come true. By offereing high quality services in web-designing, graphic designing and motion designing, we give your brand its true identity. 
-                <br>In today's world, there are indeed many agency that offers the same services as we do. But what make us different from them is our ability to understand and emotionally connect to your brand. By doing do, you can see your brand thriving in a way you always wanted to.
-                <br>Our clients are important to us.
-                We strive to connect, understand and help our them  succedd their brand. <br>Book us a call or email us if you also want something better for your brand.  </p>
-            </section>
-        </div>
-
-        <!--Team Info Section -->
-        <section>
-            <h3>OUR TEMAS</h3>
+    <head>
+        <!-- Meta Tags Section -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title Section  -->
+        <title>Astro Digital</title>
+        <!-- Link Tags Section-->
+        <link rel="icon" type="image/png" href="images/main_logo_2.png">
+        <link rel="stylesheet" href="https://use.typekit.net/scl7hpg.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation Bar + Logo -->
+        <main>
             <div>
-                <section class="Members">
-                    <h4 class="hidden">Teams</h4>
-                    <img src="teams/immama_ayoub/imma" alt="Member 1">
-                    <p>Ux/UI Designer</p>
-                </section>
+                <div class="nav-logo">
+                    <img class="logo-img" src="images/astro_logo_svg.svg" width="130" height="auto" ALT="align box" align="center">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-
-             <div>
-                <section class="Members">
-                    <h4 class="hidden">Teams</h4>
-                    <img src="images/motion_1" alt="Member 2">
-                    <p>Ux/UI Designer</p>
-                </section>
-            </div>
-
+            <!-- About Page -->
             <div>
-                <section class="Members">
-                    <h4 class="hidden">Teams</h4>
-                    <img src="images/motion_1" alt="Member 3">
-                    <p>Ux/UI Designer</p>
-                </section>
+                <div>
+                    <h4 class="astro-title"><u>About Astro Digital</u></h4>
+                </div>
+                <div>
+                    <p class="astro-par">
+                        Astro Digital is an marketing agency, estabilished to make your dream come true. By offereing high quality services in web-designing, graphic designing and motion designing, we give your brand its true identity. In today's world, there are indeed many agency that offers the same services as we do. But what make us different from them is our ability to understand and emotionally connect to your brand. By doing do, you can see your brand thriving in a way you always wanted to. Our clients are important to us. We strive to connect, understand and help our them succedd their brand.Book us a call or email us if you also want something better for your brand. 
+                    </p>
+                </div>
+            </div>
+            <!--Team Info Section -->
+            <div class="team-container">
+
+                <div class="team-astro">
+                    <div class="astro-member">
+                        <img class="aTeam" src="teams/ameem/Ameem.jpg" alt="member_image">
+                        <h3 style="font-size: 18px; padding: 10px;">Ameem</h3>
+                        <span style="font-size: 16px;">Web Developer</span>
+                        <p style="font-size: 15px; padding: 20px">
+                            Hello, I am Ameem Rahman. I'm a web developer. I code with HTML, CSS and JavaScript but I like to explore different type of coding languages. I love create sites that is consisten and appealing to clients. When I am not working, I like to watch horror, thriller and action movies. I enjoy doing photography and videography as a business. As my hobby, I enjoy making music. Most of all, I love to spend time with my family and friends
+                        </p>
+                    </div>
+                    <div class="astro-member">
+                        <img src="teams/Ayman oualifi/ayman.jpg" alt="member_image">
+                        <h3 style="font-size: 18px; padding: 10px">Ayman</h3>
+                        <span style="font-size: 16px;">Designer</span>
+                        <p style="font-size: 15px; padding: 20px">
+                            Hi, I am Ayman and I'm graphic designer. My greatest interest is solving problems in visual communication for people. I like to study user experience and interface design. When I am is not working I love to draw, try new types of coffee and desserts.
+                        </p>
+                    </div>
+                    <div class="astro-member">
+                        <img class="aTeam" src="teams/emre-usun/emre.png" alt="member_image">
+                        <h3 style="font-size: 18px; padding: 10px;">Emre</h3>
+                        <span style="font-size: 16px;">Designer</span>
+                        <p style="font-size: 15px; padding: 20px">
+                            Hello, my name is Emre. I am a graphic designer. My greatest interest is solving problems in visual communication for people. I like to study user experience and interface design. When I am not working I love to draw, try new types of coffee and desserts.
+                        </p>
+                    </div>
+                    <br><br>
+                    <div class="astro-member">
+                        <img class="aTeam" src="teams/immama_ayoub/imma.JPG" alt="member_image">
+                        <h3 style="font-size: 18px; padding: 10px;">Immama</h3>
+                        <span style="font-size: 16px;">Motion Designer</span>
+                        <p style="font-size: 15px; padding: 20px">
+                            Hi Ya'll. I am Immama. As you might have seen from the above heading, I am a designer and a developer too. I specialize in understanding Astro Digital's clients problems, designing a human-centered design for them, prototype it and help in coding it. As a UX designer and Front-End developer, it is my duty to provide our clients the results and solutions they always have wished for. With experise in HTML, CSS and JavaScript, I strive to give life to design that I have made for our clients at Astro. Graduating at Fanshawe College with advanced diploma in Interactive Media Development - 3D Visualization, I always wished to work for a company that values people's dreamms, emotions and help them build it(in this case websites, marketing solutions). By working at Astro Digital, I feel good and can also see my own wish come true.
+                        </p>
+                    </div>
+                    <div class="astro-member">
+                        <img class="aTeam" src="teams/matthew_tenuta/matthew_about_photo.jpg" alt="member_image">
+                        <h3 style="font-size: 18px; padding: 10px;">Matthew</h3>
+                        <span style="font-size: 16px;">Designer</span>
+                        <p style="font-size: 15px; padding: 20px">
+                            Hello, my name is Matthew Tenuta and I am the Head Graphic Designer at Astro Digital. Our main goal at Astro Digital is to help grow your company into something which reflects your values and you can be proud of. As the Head Graphic Designer, it is my responsibility to visualize and create graphics as well as other media you need. I have experience with front end development as I provided some HTML for our Astro Digital website. I am currently a second year student in the Fanshawe College interactive media design program, and after graduating I hope to obtain a job related to graphic design/video editing. I work hard and try my best in any project I work on whether individual or a group project. I had a lot of fun working with my colleagues on this project and I hope to learn and create more in the future.
+                        </p>
+                    </div>
+                    <div class="astro-member">
+                        <img class="aTeam" src="teams/bio_ying/ying.jpg" alt="member_image">
+                        <h3 style="font-size: 18px; padding: 10px;">Ying</h3>
+                        <span style="font-size: 16px;">Front-End Developer</span>
+                        <p style="font-size: 15px; padding: 20px">
+                            Hi, I am Ying Yang. In the Astro Digital, my responsibility is dealing with the coding, such as JS and CSS. I am studying level 3 IDP at Fanshawe College. I have experienced on making videos and wedding design. I am so interested in studing coding and motion design. I also likes watching dramas and cooking. After I gradute from Fanshawe, I will apply a higher degree that is relative with media. I want to be a motion designer if I want to find a job in Ontario. And I have a long experience in Marketing so I think I will be grew up in the media field.
+                        </p>
+                    </div>
+                </div>
             </div>
 
-             <div>
-                <section class="Members">
-                    <h4 class="hidden">Teams</h4>
-                    <img src="images/motion_1" alt="Member 4">
-                    <p>Ux/UI Designer</p>
-                </section>
+            <!-- Footer -->
+            <div>
+                <footer>
+                    <div>
+                        <div class="footer-row">
+                            <div class="footer-column">
+                                <div class="footer-left">
+                                    <h4>
+                                        © 2022. All rights reserved by Astro Digital
+                                        <br>
+                                        1156 Bucke St, London, ON N5Y 3S3
+                                        <br>
+                                        Email: astrodigital@contact.com
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="footer-column">
+                                <div class="footer-center">
+                                    <img src="/images/main_logo_2.png" alt="" width="100" height="auto" allign="center">
+                                </div>
+                            </div>
+                            <div class="footer-column">
+                                <div class="footer-container">
+                                    <div>
+                                        <img src="/assets/face.svg" alt="" width="40">
+                                    </div>
+                                    <div>
+                                        <img src="/assets/twitter.svg" alt="" width="40">
+                                    </div>
+                                    <div>
+                                        <img src="/assets/insta.svg" alt="" width="40">
+                                    </div>
+                                    <div>
+                                        <img src="/assets/youtube.svg" alt="" width="40">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </div>
-
-             <div>
-                <section class="Members">
-                    <h4 class="hidden">Teams</h4>
-                    <img src="images/motion_1" alt="Member 5">
-                    <p>Ux/UI Designer</p>
-                </section>
-            </div>
-
-             <div>
-                <section class="Members">
-                    <h4 class="hidden">Teams</h4>
-                    <img src="images/motion_1" alt="Member 6">
-                    <p>Ux/UI Designer</p>
-                </section>
-            </div>
-            
-        </section>
-  
-
-
-        <!--Lightbox div -->
-        <div>
-            <section>
-                <h4 class="hidden">Lightbox- Members Info</h4>
-                <img src="images/motion_1" alt="Member 1">
-                <p>Member 1 has been a good boy etc.</p>
-            </section>
-        </div>
-    </main>
-
-
-    <footer>
-        <h2 class="hidden"> Footer </h2>
-
-        <section>
-            <h3 class="hidden">Logo</h3>
-            <img src="images/main_logo" alt="Main Astro logo">
-        </section>
-
-        <section>
-            <h3 class="hidden">CopyRight</h3>
-            <p> © 2022. All rights reserved by Astro Digital </p>
-            <p> 1156 Bucke St, London, ON N5Y 3S3 </p>
-            <p> Email: astrodigital@contact.com </p>
-        </section>
-
-        <section><!-- Social logos aligned on the footer -->
-            <h3 class="hidden">Social Links And Logos</h3>
-                <a class="social" href="https://twitter.com/">
-                    <img src="assets/twitter.svg" alt="twitter logo">
-                </a>
-                <a class="social" href="https://facebook.com/">
-                    <img src="assets/face.svg" alt="facebook logo">
-                </a>
-                <a class="social" href="https://instagram.com/">
-                    <img src="assets/insta.svg" alt="instagram logo">
-                </a>
-        </section>
-
-
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
+        </main>
+        <script src="js/main.js"></script>
+    </body>
 </html>
